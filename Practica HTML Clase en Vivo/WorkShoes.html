@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Work Shoes</title>
+  </head>
+  <body>
+    <header>
+      <h1>Work Shoes, desde 2021</h1>
+    </header>
+
+    <img src="./WhatsApp Image 2021-06-29 at 2.18.47 PM.jpeg" alt="LOGO" />
+
+    <section>
+      <h2>Tipos de zapatos</h2>
+      <h3>Con Punta de acero</h3>
+      <ul>
+        <li>Hombres</li>
+        <li>Mujeres</li>
+      </ul>
+      <h3>Sin Punta de acero</h3>
+      <ul>
+        <li>Hombres</li>
+        <li>Mujeres</li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>Ubicación</h2>
+      <table>
+        <tr>
+          <th>Dirección</th>
+          <th>Horario</th>
+        </tr>
+        <tr>
+          <td>
+            <a
+              href="https://www.google.com/maps/place/Jiron+Almte.+Miguel+Grau+520,+11702/@-13.4218338,-76.135551,17z/data=!3m1!4b1!4m5!3m4!1s0x911016880c95477d:0x98e176e7d992ed4!8m2!3d-13.4218338!4d-76.1333623"
+              target="_blank"
+              >Dirección</a
+            >
+          </td>
+          <td>L a S de 10am a 7 pm</td>
+        </tr>
+      </table>
+    </section>
+    <hr />
+
+    <section>
+      <h2>Pedidos</h2>
+      <h3>Haz tu pedido</h3>
+
+      <form action="">
+        <p>¿Qué tipo de zapato deseas?</p>
+        <input type="radio" name="Tipo" id="Tipo" />
+        <label for="Tipo">Sin punta de acero</label>
+        <input type="radio" name="Tipo" id="Tipo" />
+        <label for="Tipo">Con punta de acero</label>
+
+        <p>¿Para que genero deseas?</p>
+        <input type="radio" name="genero" id="genero" />
+        <label for="genero">Hombre</label>
+        <input type="radio" name="genero" id="genero" />
+        <label for="genero">Mujer</label>
+
+        <p>Escoge tu talla</p>
+        <select name="talla" id="talla">
+          <option value="39">39</option>
+          <option value="40">40</option>
+          <option value="41">41</option>
+          <option value="42">42</option>
+          <option value="43">43</option>
+        </select>
+
+        <p>Indica la cantidad</p>
+        <input
+          type="number"
+          name="cantidad"
+          id="cantidad"
+          placeholder="¿Cuantos?"
+        />
+
+        <p>Agrega tu Nombre</p>
+        <input type="text" name="nombre" id="nombre" />
+
+        <p>Agrega tu telefono</p>
+        <input type="number" name="telefono" id="telefono" />
+
+        <p>Agrega tu dirección</p>
+        <input
+          type="text"
+          name="direccion"
+          id="direccion"
+          placeholder="A donde quieres que llegue"
+        />
+        <br /><br />
+        <input type="submit" value="Enviar" />
+      </form>
+    </section>
+  </body>
+</html>
